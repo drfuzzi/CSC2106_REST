@@ -23,8 +23,7 @@ REST is particularly well-suited for use in the Internet of Things (IoT) because
 Overall, REST is a popular choice for building APIs in the IoT because it provides a simple, standard way for devices to communicate with each other and with back-end servers. It is flexible, scalable, and easy to use, making it well-suited for building distributed systems and enabling interoperability in the IoT.
 
 
-
-
+![image](https://github.com/drfuzzi/CSC2106_REST/assets/108112390/b6617c95-3f77-47ec-a043-cad4ca0dcb7b)
 
 Figure 1: Overview of REST API
 
@@ -34,12 +33,13 @@ The M5StickC is a compact device that has a built-in ESP32 microcontroller, a 0.
 
 
 
+![image](https://github.com/drfuzzi/CSC2106_REST/assets/108112390/ff48eb65-2604-4ba9-8d51-90e5417688e6)
 
 Figure 2: Interfaces for M5Stick-C Plus [1]
 
 Step 1: Power the device by connecting the USB-C cable from the PC to the device.
 Step 2: To connect the device to REST API, you must connect it to the internet via WiFi. To do this, you need to have a WiFi network available. Take note of the device’s IP address.
-Step 3: To use the device with a REST API, you will need to configure the device and install the necessary libraries. Follow the instructions provided in the link [2].
+Step 3: To use the device with a REST API, you will need to configure the device and install the necessary libraries. Follow the instructions provided [here](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino) [2].
 Step 4: Now that you have the device configured for REST API access, you can test it by requesting the web-based service from any client (e.g. mobile phone, laptop, etc) that is within the same LAN.
 By completing this lab, you have learned how to setup the M5StickC, connect it to WiFi, install the necessary libraries, and configure it for REST API access. You have also tested the M5StickC with a REST API, giving you a foundation for using it in your future projects.Jan 2023
 
@@ -47,15 +47,15 @@ By completing this lab, you have learned how to setup the M5StickC, connect it t
 
 Extend your lab to incorporate both the functionality listed below:
 1.   To extend the RESTful APIs into different URLs endpoints such as
-a.   /
-b.   /gyro/
-c.   /accel/
-d.   /temp/
+  a.   /
+  b.   /gyro/
+  c.   /accel/
+  d.   /temp/
 2.   Besides obtaining data from the device, RESTful API can also trigger actuators. Extend the functionality of the lab to trigger any of the actuators in the device, i.e. LED, buzzer, LCD, etc.
-a.   /led/0  turn off the LED
-b.   /led/0  turn on the LED
-c.   /buzzer/0  turn off the buzzer
-d.   /buzzer/1  turn on the buzzer
+  a.   /led/0  turn off the LED
+  b.   /led/0  turn on the LED
+  c.   /buzzer/0  turn off the buzzer
+  d.   /buzzer/1  turn on the buzzer
 Please upload the source file (.ino) to DropBox in xSITe. Remember to include your name and student ID. Lab assignments can be discussed in pairs but must be submitted and presented individually. You will also be asked to answer questions that affect your lab assignment grades.
 
 ## **Reference**
