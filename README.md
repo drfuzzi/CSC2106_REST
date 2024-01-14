@@ -38,8 +38,11 @@ The M5StickC is a compact device that has a built-in ESP32 microcontroller, a 0.
 Figure 2: Interfaces for M5Stick-C Plus [1]
 
 Step 1: Power the device by connecting the USB-C cable from the PC to the device.
+
 Step 2: To connect the device to REST API, you must connect it to the internet via WiFi. To do this, you need to have a WiFi network available. Take note of the device’s IP address.
+
 Step 3: To use the device with a REST API, you will need to configure the device and install the necessary libraries. Follow the instructions provided [here](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino) [2].
+
 Step 4: Now that you have the device configured for REST API access, you can test it by requesting the web-based service from any client (e.g. mobile phone, laptop, etc) that is within the same LAN.
 
 By completing this lab, you have learned how to setup the M5StickC, connect it to WiFi, install the necessary libraries, and configure it for REST API access. You have also tested the M5StickC with a REST API, giving you a foundation for using it in your future projects.
