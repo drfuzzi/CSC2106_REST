@@ -76,7 +76,7 @@ Extend your lab to incorporate both the functionality listed below:
 
     d. `/buzzer/1` - Turn on the buzzer
 
-Please upload the source file (.ino) to DropBox in xSITe. Remember to include your name and student ID. Lab assignments can be discussed with others but must each submittion must be unique and individual. 
+Please upload the source file (.ino) to DropBox in xSITe. Remember to include your name and student ID. Lab assignments can be discussed with others but each submission must be unique. 
 
 ## **Reference**
 1. M5Stack Arduino Library, https://github.com/m5stack/M5StickC-Plus
