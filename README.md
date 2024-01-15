@@ -47,6 +47,12 @@ Figure 2: Interfaces for M5Stick-C Plus [1]
 
 By completing this lab, you have learned how to setup the M5StickC, connect it to WiFi, install the necessary libraries, and configure it for REST API access. You have also tested the M5StickC with a REST API, giving you a foundation for using it in your future projects.
 
+## **Lab Exercise**
+
+This [Arduino code](Lab1.ino) for the M5StickC Plus creates a simple web server that serves as a RESTful API to access sensor data from the device. The code establishes a Wi-Fi connection, initializes the device's IMU (Inertial Measurement Unit) for gyroscope and temperature data, and configures the LCD display. It listens for incoming HTTP requests on port 80, defining a single endpoints: '/' that would trigger the `handle_JsonResponse` function. When a request is made to '/', the server responds with JSON-formatted sensor data, including pitch, roll, yaw, and temperature readings. Additionally, it turns on an LED when data is requested. The loop function ensures continuous checks for incoming client requests and updates sensor data on the LCD. The device triggers an update to the sensor data when a physical button is pressed.
+
+In essence, this code transforms the M5StickC Plus into a remotely accessible sensor device. Users can access real-time sensor data over a local Wi-Fi network by making HTTP requests to the device's RESTful API endpoints. The code provides a straightforward way to gather essential sensor information, making it a versatile tool for various applications that require monitoring or control of physical parameters using the M5StickC Plus.
+
 ## **Lab Assignment**
 
 Extend your lab to incorporate both the functionality listed below:
