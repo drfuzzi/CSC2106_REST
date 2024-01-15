@@ -53,15 +53,21 @@ Extend your lab to incorporate both the functionality listed below:
 1. **Extend URL Endpoints**: You can extend the RESTful APIs into different URL endpoints to interact with the device's sensors and obtain data. The available endpoints are:
 
     a. `/` - Root endpoint
+
     b. `/gyro/` - Gyroscope data endpoint
+
     c. `/accel/` - Accelerometer data endpoint
+
     d. `/temp/` - Temperature data endpoint
 
-2. **Actuator Control**: In addition to obtaining data from the device, the RESTful API can also trigger actuators on the device. You can extend the functionality to control various actuators, such as LED, buzzer, and LCD. The available actuator control endpoints are:
+3. **Actuator Control**: In addition to obtaining data from the device, the RESTful API can also trigger actuators on the device. You can extend the functionality to control various actuators, such as LED, buzzer, and LCD. The available actuator control endpoints are:
 
     a. `/led/0` - Turn off the LED
+
     b. `/led/1` - Turn on the LED
+
     c. `/buzzer/0` - Turn off the buzzer
+
     d. `/buzzer/1` - Turn on the buzzer
 
 Please upload the source file (.ino) to DropBox in xSITe. Remember to include your name and student ID. Lab assignments can be discussed with others but must each submittion must be unique and individual. 
