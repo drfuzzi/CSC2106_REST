@@ -41,7 +41,7 @@ Figure 2: Interfaces for M5Stick-C Plus [1]
 
 **Step 2:** To connect the device to REST API, you must connect it to the internet via WiFi. To do this, you need to have a WiFi network available. Take note of the device’s IP address.
 
-**Step 3:** To use the device with a REST API, you will need to configure the device and install the necessary libraries. Follow the instructions provided [here](https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino) [2].
+**Step 3:** To use the device with a REST API, you will need to configure the device and install the necessary libraries. Follow the instructions provided [here](https://docs.m5stack.com/en/arduino/m5stickc_plus/program) [2].
 
 **Step 4:** Now that you have the device configured for REST API access, you can test it by requesting the web-based service from any client (e.g. mobile phone, laptop, etc) that is within the same LAN.
 
@@ -83,5 +83,5 @@ Extend your lab to incorporate both the functionality listed below:
 Please upload the source file (.ino) to DropBox in xSITe. Remember to include your name and student ID. Lab assignments can be discussed with others but each submission must be unique. 
 
 ## **Reference**
-1. M5Stack Arduino Library, https://github.com/m5stack/M5StickC-Plus
-2. Arduino IDE environment for M5StickC Plus, https://docs.m5stack.com/en/quick_start/m5stickc_plus/arduino
+1. M5Stack Arduino Library, https://docs.m5stack.com/en/arduino/m5stickc_plus/program
+2. Arduino IDE environment for M5StickC Plus, https://docs.m5stack.com/en/arduino/arduino_ide
